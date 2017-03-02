@@ -1,0 +1,31 @@
+{
+  "name": "gulp-xhtml",
+  "version": "0.1.0",
+  "description": "A xtemplate plugin for gulp",
+  "main": "lib",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zce/gulp-xhtml.git"
+  },
+  "keywords": [
+    "gulp",
+    "layout",
+    "zce",
+    "iceStone",
+    "wedn",
+    "wedn.net",
+    "micua",
+    "micua.com"
+  ],
+  "author": "iceStone <ice@micua.com> (http://www.micua.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zce/gulp-xhtml/issues"
+  },
+  "homepage": "https://github.com/zce/gulp-xhtml#readme",
+  "dependencies": {
+    "node-xtemplate": "^0.1.5",
+    "through2": "^2.0.3"
+  }
+}
