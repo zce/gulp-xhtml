@@ -20,15 +20,16 @@
 [style-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
 [style-url]: http://standardjs.com/
 
-> A node.js wrapper around xtemplate engine
-
+> A gulp plugin for compiling xTemplate templates.
 
 ## Install
 
 ```sh
-$ npm install --save gulp gulp-xhtml
+# npm
+$ npm install gulp gulp-xhtml --save-dev
+# or yarn
+$ yarn add gulp gulp-xhtml -D
 ```
-
 
 ## Usage
 
@@ -37,75 +38,17 @@ demo.xtpl
 <p>{{ message }}</p>
 ```
 
-demo.js
+gulpfile.js
 
 ```js
-const xTemplate = require('gulp-xhtml')
+var xhtml = require('gulp-xhtml');
 
-// callback
-xTemplate.render(path.resolve(__dirname, 'demo.xtpl'), {
-  message: 'hello world'
-}, function (err, result) {
-  // result => <p>hello world</p>
-})
-
-// or promise
-xTemplate
-  .render(path.resolve(__dirname, 'demo.xtpl'), { message: 'hello world' })
-  .then(function (result) {
-    // result => <p>hello world</p>
-  })
-  .catch(function (err) {
-    // if err
-  })
+gulp.task('views', () => {
+  return gulp.src('views/*.xtpl')
+    .pipe(xhtml())
+    .pipe(gulp.dest('dist'))
+});
 ```
-
-
-## API
-
-### render(path, data[, options], callback)
-
-#### path
-
-Type: `string`
-
-The path of template file.
-
-#### data
-
-Type: `object`
-
-The template data.
-
-#### options
-
-##### extname
-
-Type: `string`
-
-##### strict
-
-Type: `boolean`
-
-##### catchError
-
-Type: `boolean`
-
-##### cache
-
-Type: `boolean`
-
-##### encoding
-
-Type: `string`<br>
-Default: `utf-8`
-
-#### callback(err, result)
-
-Type: `function`
-
-Done callback
-
 
 ## License
 

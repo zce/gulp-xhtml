@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-bluebird@^3.4.7:
-  version "3.4.7"
-  resolved "http://registry.npm.taobao.org/bluebird/download/bluebird-3.4.7.tgz#f72d760be09b7f76d08ed8fae98b289a8d05fab3"
+bluebird@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.npmjs.org/bluebird/-/bluebird-3.5.0.tgz#791420d7f551eea2897453a8a77653f96606d67c"
 
 buffer-shims@^1.0.0:
   version "1.0.0"
@@ -18,9 +18,9 @@ escape-html@~1.0.3:
   version "1.0.3"
   resolved "http://registry.npm.taobao.org/escape-html/download/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
 
-iconv-lite@^0.4.15:
-  version "0.4.15"
-  resolved "http://registry.npm.taobao.org/iconv-lite/download/iconv-lite-0.4.15.tgz#fe265a218ac6a57cfe854927e9d04c19825eddeb"
+iconv-lite@^0.4.18:
+  version "0.4.18"
+  resolved "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.18.tgz#23d8656b16aae6742ac29732ea8f0336a4789cf2"
 
 inherits@~2.0.1:
   version "2.0.3"
@@ -30,18 +30,18 @@ isarray@~1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/isarray/download/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
 
-node-xtemplate@^0.1.5:
-  version "0.1.5"
-  resolved "http://registry.npm.taobao.org/node-xtemplate/download/node-xtemplate-0.1.5.tgz#1a8506fcecbf698714b8b8b1ee9e909312c10f44"
+node-xtemplate@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.npmjs.org/node-xtemplate/-/node-xtemplate-0.1.6.tgz#be3f23b0ae563ad747a015bd63bf809dc16d9ee6"
   dependencies:
-    bluebird "^3.4.7"
-    iconv-lite "^0.4.15"
-    object-assign "^4.1.0"
-    xtemplate "^4.6.0"
+    bluebird "^3.5.0"
+    iconv-lite "^0.4.18"
+    object-assign "^4.1.1"
+    xtemplate "^4.6.1"
 
-object-assign@^4.1.0:
+object-assign@^4.1.1:
   version "4.1.1"
-  resolved "http://registry.npm.taobao.org/object-assign/download/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
+  resolved "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
 
 process-nextick-args@~1.0.6:
   version "1.0.7"
@@ -74,9 +74,9 @@ util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "http://registry.npm.taobao.org/util-deprecate/download/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
 
-xtemplate@^4.6.0:
-  version "4.6.0"
-  resolved "http://registry.npm.taobao.org/xtemplate/download/xtemplate-4.6.0.tgz#ba13a44bfca2161d35dbb06873b36f7795c9f5cf"
+xtemplate@^4.6.1:
+  version "4.7.2"
+  resolved "https://registry.npmjs.org/xtemplate/-/xtemplate-4.7.2.tgz#90d05140e45bf3e841d3b529502174aacfe4e862"
   dependencies:
     escape-html "~1.0.3"
 
