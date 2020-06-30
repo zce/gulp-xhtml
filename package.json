@@ -26,6 +26,6 @@
   "homepage": "https://github.com/zce/gulp-xhtml#readme",
   "dependencies": {
     "node-xtemplate": "^0.1.6",
-    "through2": "^3.0.0"
+    "through2": "^4.0.0"
   }
 }
